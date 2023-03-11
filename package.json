@@ -1,14 +1,11 @@
 {
-"name": "hello",
-"version": "0.1.0",
-"description": "An example package.json",
-"author": "Student <student@example.com>",
-"scripts": {
-"start": "node app.js"
-},
-"dependencies": {
-"cookie-parser": "1.4.*",
-"http-errors": ">=1.6.3",
-},
-"license": "MIT"
+  "name": "myapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1"
+  }
 }
