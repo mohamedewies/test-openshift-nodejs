@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/', function(req, res) {
-    res.send('Hello, World from Ewies Open Shift 2.0023!\n');
+    res.send('Hello, World from Ewies Open Shift 2.003!\n');
 });
 app.get('/mars', function(req, res) {
 res.send('Hello Mars ya Ewies!\n');
