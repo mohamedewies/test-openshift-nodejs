@@ -27,7 +27,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: my-nodejs-svc
+  name: openshift-nodejs-ewies-svc
 spec:
 ports:
   - name: http-3001
