@@ -6,6 +6,12 @@ app.get('/', function(req, res) {
 app.get('/mars', function(req, res) {
 res.send('Hello Mars ya Ewies!\n');
 });
+
+app.get('/valueFromSecret', function(req, res) {
+const valueFromSecret = process.env.OWM_API_KEY;
+res.send('valueFromSecret = ' + valueFromSecret);
+});
+
 app.listen(3001, function() {
     console.log('Example app listening on port 3001!');
 });
