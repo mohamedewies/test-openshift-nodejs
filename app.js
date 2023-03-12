@@ -10,8 +10,7 @@ res.send('Hello Mars ya Ewies!\n');
 app.get('/valueFromSecret', function(req, res) {
 const valueFromSecret = process.env.OWM_API_KEY;
 const metrics = process.env.UNITS;
-res.send('valueFromSecret = ' + valueFromSecret);
-res.send('\nmetrics = ' + metrics);
+res.send('valueFromSecret = ' + valueFromSecret + '\nmetrics = ' + metrics);
 });
 
 app.listen(3001, function() {
